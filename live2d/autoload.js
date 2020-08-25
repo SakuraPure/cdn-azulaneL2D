@@ -1,6 +1,6 @@
 // 注意：live2d_path 参数应使用绝对路径，记得修改哦
-const live2d_path = "https://cdn.jsdelivr.net/gh/sakurapure/cdn-azulanL2D@1.0/live2d/";
-const tips_path = "https://cdn.jsdelivr.net/gh/sakurapure/cdn-azulanL2D@1.0/live2d/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/sakurapure/cdn-azulaneL2D@1.0/live2d/";
+const tips_path = "https://cdn.jsdelivr.net/gh/sakurapure/cdn-azulaneL2D@1.0/live2d/";
 //const live2d_path = "";
 //const live2d_path = "/live2d-widget/";
 
@@ -35,7 +35,7 @@ function loadExternalResource(url, type) {
 		initWidget({
 			waifuPath: tips_path + "waifu-tips.min.json",
 			apiPath: "https://api.peko233.ga/live2d_api/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/sakurapure/cdn-azulanL2D@1.0/live2d_api/"
+			cdnPath: "https://cdn.jsdelivr.net/gh/sakurapure/cdn-azulaneL2D@1.0/live2d_api/"
 		});
 	});
 console.log(`
